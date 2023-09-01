@@ -1,0 +1,102 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #e4280f;
+    color: white;
+    padding: 1rem;
+}
+
+header img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.dividir {
+    background-color: #f5f821;
+    height: 1px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.turismo {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.turismo-item {
+    flex: 1;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #0c0b0b;
+}
+
+.turismo-conteudo {
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.turismo-item img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table td {
+    vertical-align: top;
+    padding: 50px;
+    border: 3px solid #0c0b0b;
+}
+
+footer {
+    background-color: #3df518;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 1rem;
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+    border: 3px solid #0c0b0b;
+}
